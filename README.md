@@ -48,21 +48,6 @@ A hybrid AI chatbot that intelligently routes questions to the right AI model. S
 
 ---
 
-## 📁 Project Structure
-
-```
-Ai-Counsult/
-├── backend/
-│   ├── server.py        # FastAPI WebSocket server
-│   ├── brain.py         # Judge (router) & Synthesizer
-│   ├── ai.py            # AI client configurations
-│   └── requirements.txt # Python dependencies
-├── frontend/
-│   ├── index.html       # Main HTML page
-│   ├── css/style.css    # Dark theme styling
-│   └── js/script.js     # WebSocket client logic
-└── README.md
-```
 
 ---
 
@@ -77,15 +62,6 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r backend/requirements.txt
 ```
 
-### 2. Configure API Keys
-
-Create a `.env` file in the `backend/` folder:
-
-```env
-GEMINI_API_KEY=your_gemini_api_key
-GITHUB_TOKEN_OPENAI=your_github_models_token
-GITHUB_TOKEN_DEEPSEEK=your_github_models_token
-```
 
 ### 3. Run the Server
 
